@@ -18,11 +18,18 @@ These scripts were written in R version 3.6.2 and RStudio version 1.2.5033.
 
 Getting started
 The 'R' folder contains:
+01_Process_raw_data_COC.R - data derivations capturing continuity for up to 4 years of followup
+01_Process_raw_data_COC1yr.R - data derivations capturing continuity for 1 year of follow
+02_Derive_patientvars_COC.R - merge in patient characteristics
+03_Descriptive_models_COC.R - Creates tables and regression models for up to 4 years of followup
+03_Descriptive_models_COC1yr.R - Creates tables and regression models for 1 year of followup
+03_Descriptive_models_COC_white_ethnicity.R - Creates tables and regression models with the white ethnic group disaggregated
 
 
 License
 This project is licensed under the MIT License.
 
 Code Authors - please feel free to get in touch
-Mai Stafford - website / on twitter
-Jay Hughes - website
+* **Mai Stafford** - on [Twitter](https://twitter.com/stafford_xm) or [Website](https://www.health.org.uk/about-the-health-foundation/our-people/data-analytics-team/mai-stafford)
+* **Jay Hughes** - on [Website](https://health.org.uk/about-the-health-foundation/our-people/data-analytics-team/jay-hughes)
+
